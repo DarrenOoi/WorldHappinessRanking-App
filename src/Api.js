@@ -5,26 +5,6 @@ const API_KEY = "d804dc49e15e407196b152253221103";
 //const QUERY = "Brisbane";
 const API_URL = "http://api.weatherapi.com";
 
-export const countries = [
-  "Sydney",
-  "Melbourne",
-  "Brisbane",
-  "Perth",
-  "Adelaide",
-  "Canberra",
-  "Hobart",
-  "Darwin",
-  "Gold Coast",
-  "Sunshine Coast",
-  "Toowoomba",
-  "Newcastle",
-  "Central Coast",
-  "Wollongong",
-  "Geelong",
-  "Cairns",
-  "Townsville",
-];
-
 function getForecastByQuery(query) {
   const url = `${API_URL}/v1/current.json?key=${API_KEY}&q=${query}&aqi=no`;
   console.log(query);
